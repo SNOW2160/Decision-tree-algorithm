@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Tree algorithm</title>
+    <link rel="stylesheet" href="./styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1 id="head">Decision Tree Algorithm</h1>
+        <hr>
+        <h2>What is Decision Tree Algorithm?</h2><hr>
+        <p>A decision tree algorithm is a supervised learning method used for classification and 
+            regression tasks in machine learning. It is a tree-like structure where each internal 
+            node represents a "decision" based on a feature, each branch represents an outcome of that 
+            decision, and each leaf node represents a class label or regression value. Decision trees are 
+            popular because they are easy to understand, interpret, and visualize.<br></p>
+        
+        <hr><h2>Decision Tree Classification Algorithm</h2><hr>
+
+        <ul style="list-style-type: circle">
+            <li>Decision Tree is a Supervised learning technique that can 
+                be used for both classification and Regression 
+                problems, but mostly it is preferred for solving 
+                Classification problems. It is a tree-structured classifier, 
+                where internal nodes represent the features of a dataset, branches represent 
+                the decision rules and each leaf node represents the outcome.</li>
+
+            <li>In a Decision tree, there are two nodes,
+                 which are the Decision Node and Leaf Node. Decision nodes are used to
+                  make any decision and have multiple branches, whereas Leaf nodes are the 
+                  output of those decisions and do not contain any further branches.</li>
+            
+            <li>The decisions or the test are performed on the 
+                basis of features of the given dataset.</li>
+            
+            <li>It is a graphical representation for getting all the possible solutions to a 
+                problem/decision based on given conditions.</li>
+
+            <li>It is called a decision tree because, similar to a tree, it starts with the root node, 
+                which expands on further branches and constructs a tree-like structure.</li>
+
+            <li>In order to build a tree, 
+                we use the CART algorithm, which stands for 
+                Classification and Regression Tree algorithm.</li>
+
+            <li>A decision tree simply asks a question, 
+                and based on the answer (Yes/No), 
+                it further split the tree into subtrees.</li>
+
+        </ul>
+        <hr>
+
+        <h2>Below diagram explains the general structure of a decision tree:</h2><hr>
+        <div id="m0"><img id="DT" src="./2041.1555312516.png" /></div>
+
+        <hr>
+
+        <h2>Why use Decision Trees?</h2><hr>
+        <p>There are various algorithms in Machine learning, 
+            so choosing the best algorithm for the given 
+            dataset and problem is the main point to remember while creating a machine learning model. 
+            Below are the two reasons for using the Decision tree:
+
+            <ul style="list-style-type: circle">
+                <li>Decision Trees usually mimic human thinking ability while making a decision, 
+                    so it is easy to understand.</li>
+                <li>The logic behind the decision tree can be easily 
+                    understood because it shows a tree-like structure.</li>
+            </ul>
+        </p>
+
+        <hr><h2>Decision Tree Terminologies</h2><hr>
+        <ul style="list-style-type: circle">
+            <li>Root Node: Root node is from where the decision tree starts. 
+                It represents the entire dataset, which further gets divided 
+                into two or more homogeneous sets.</li>
+            <li>Leaf Node: Leaf nodes are the final output node,
+                 and the tree cannot be segregated further after getting a leaf node.</li>
+            <li>Splitting: Splitting is the process of dividing the 
+                decision node/root node into sub-nodes according to the
+                 given conditions.</li>
+            <li>Branch/Sub Tree: A tree formed by splitting the tree.</li>
+            <li>Pruning: Pruning is the process of removing the 
+                unwanted branches from the tree.</li>
+            <li>Parent/Child node: The root node of the tree is
+                 called the parent node, and other nodes are called the child nodes.</li>
+        </ul> 
+
+        <hr><h2>Advantages of the Decision Tree</h2><hr>
+        <ul style="list-style-type: circle">
+            <li>It is simple to understand as it follows the same process which a human follow 
+                while making any decision in real-life.</li>
+            <li>It can be very useful for solving decision-related problems.</li>
+            <li>It helps to think about all the possible outcomes for a problem.</li>
+            <li>There is less requirement of data cleaning compared to other algorithms.</li>
+        </ul>
+
+
+        <hr><h2>Disadvantages of the Decision Tree</h2><hr>
+        <ul style="list-style-type: circle">
+            <li>The decision tree contains lots of layers, which makes it complex.</li>
+            <li>It may have an overfitting issue, which can be resolved using the Random Forest algorithm.</li>
+            <li>For more class labels, the computational complexity of the decision tree may increase.</li>
+        </ul>
+
+        <hr>
+
+        <h2>Practical applicaion for Decision Tree Algorithm</h2><hr>
+
+        <h2>About Dataset</h2>
+        <p>Imagine that you are a medical researcher compiling data for a study.
+             You have collected data about a set of patients, all of whom suffered from the same illness. 
+             During their course of treatment, 
+            each patient responded to one of 5 medications, Drug A, Drug B, Drug c, Drug x and y.</p>
+        <p>Part of your job is to build a model to find out which drug might be appropriate for a
+            ] future patient with the same illness. The features of this dataset are Age, Sex, 
+            Blood Pressure, and the Cholesterol of the patients, and the target is the drug that
+             each patient responded to.</p>
+        <p>It is a sample of multiclass classifier, and you can use the training part of the 
+            dataset to build a decision tree, and then use it to predict the class of a unknown 
+            patient, or to prescribe a drug to a new patient.</p>
+
+    <div id ="m1" ><img id="dataset" src="./dataset.png"/></div>
+
+    <hr><h2>Data Preprocessing</h2><hr>
+    <div id="m2"><img id="P1" src="./Preprocessing.png"/>
+        <img  id="P2" src="./preprocessing2.png"/></div>
+
+    <hr><h2>Applying Decision Tree model:</h2><hr>
+    <div id="m3"><img ID="model" src="./DT.png"/></div>
+
+    <hr><h2>Output:</h2><hr>
+    <div id="m4"><img id="output" src="./output.png"/></div>
+
+    <hr><h2>Visualizing the Decision Tree:</h2><hr>
+    <div id="m5"><img id=V src="./Visualization.png"/></div>
+    
+
+    </div>
+    
+</body>
+</html>

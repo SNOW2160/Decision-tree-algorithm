@@ -1,0 +1,83 @@
+*{
+    background-color: rgb(191, 232, 241);
+    
+    
+}
+div{
+    font-family: Noto Sans;
+    color: rgb(14, 14, 2);
+    text-align: justify;
+    margin-left: 200px;
+    margin-right:200px;
+   
+}
+#head{
+    text-align: center;
+    background-color: rgb(150, 211, 192);
+    color: black;
+    border-radius: 10px;
+    border: 3px solid black
+}
+h2{
+    background-color: rgb(168, 219, 203) ;
+    color:black;
+    border-radius: 10px;
+    padding-left: 25px;
+    border: 3px solid black   
+}
+
+
+img{
+    border: 3px solid rgb(179, 219, 234);    
+}
+
+
+#DT{
+    height: 300px;
+    margin-left: 30px;
+    border-radius: 15px;
+   
+}
+#P1{
+    height: 600PX;
+    border-radius: 15px;
+}
+#P2{
+    height: 600PX;
+    border-radius: 15px;
+}
+#model{
+    height: 600px;
+    border-radius: 15px;
+}
+#output{
+    height: 300px;
+    border-radius: 15px;
+}
+#V{
+    height: 600px;
+    border-radius: 15px;
+}
+#dataset{
+    height: 400px;
+    border-radius: 15px;
+    
+}
+#m0{
+    text-align: center;
+}
+#m1{
+    text-align: center;
+}
+#m2{
+    text-align: center;
+}
+#m3{
+    text-align: center;
+}
+#m4{
+    text-align: center;
+}
+#m5{
+    text-align: center;
+}
